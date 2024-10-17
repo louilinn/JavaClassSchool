@@ -2,10 +2,10 @@ import java.util.ArrayList;
 
 public class Student {
 
-  int year;
-  String education;
-  String name;
-  ArrayList<String> courses = new ArrayList<>();
+  private int year;
+  private String education;
+  private String name;
+  private ArrayList<String> courses = new ArrayList<>();
 
   public Student(int year, String education, String name) {
     this.year = year;
